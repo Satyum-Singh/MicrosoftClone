@@ -4,12 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Microsoft - Cloud, Computers, App &amp; Gaming</title>
+    <script
+      src="https://kit.fontawesome.com/b3e6fa0e5b.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="main.css" />
+    <script
+      src="https://kit.fontawesome.com/b3e6fa0e5b.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
+    <!-- NavBar -->
     <div class="navbar w-100vw shadow-lg flex justify-between items-center p-4">
       <div class="flex justify-center items-center md:order-2">
-        <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+        <div class="hamburger inline-block p-2 cursor-pointer md:hidden">
           <div class="line h-0.5 w-6 my-1 bg-black"></div>
           <div class="line h-0.5 w-6 my-1 bg-black"></div>
           <div class="line h-0.5 w-6 my-1 bg-black"></div>
@@ -17,26 +26,131 @@
         <div class="search md:hidden">SearchIcon</div>
       </div>
       <div class="logo text-center flex md:order-1">
-        <div class="mr-8">Microsoft</div>
+        <div class="mx-6">
+          <img class="h-6" src="image/nav_logo.png" alt="" />
+        </div>
         <div
           class="features absolute w-fit -translate-x-96 bg-gray-100 inset-0 md:flex md:mx-4 md:space-x-4 md:translate-x-0 md:static md:bg-white"
         >
           <div
-            class="fitems hover:underline hover:underline-offset-8 cursor-pointer"
+            class="fitems text-sm font-normal hover:underline underline-offset-2 cursor-pointer"
           >
             Microsoft
           </div>
-          <div class="fitems">365</div>
-          <div class="fitems">Office</div>
-          <div class="fitems">Windows</div>
-          <div class="fitems">Surface</div>
-          <div class="fitems">Xbox</div>
-          <div class="fitems">Support</div>
+          <div
+            class="fitems text-sm font-normal hover:underline underline-offset-2 cursor-pointer"
+          >
+            365
+          </div>
+          <div
+            class="fitems text-sm font-normal hover:underline underline-offset-2 cursor-pointer"
+          >
+            Office
+          </div>
+          <div
+            class="fitems text-sm font-normal hover:underline underline-offset-2 cursor-pointer"
+          >
+            Windows
+          </div>
+          <div
+            class="fitems text-sm font-normal hover:underline underline-offset-2 cursor-pointer"
+          >
+            Surface
+          </div>
+          <div
+            class="fitems text-sm font-normal hover:underline underline-offset-2 cursor-pointer"
+          >
+            Xbox
+          </div>
+          <div
+            class="fitems text-sm font-normal hover:underline underline-offset-2 cursor-pointer"
+          >
+            Support
+          </div>
         </div>
       </div>
-      <div class="logo text-center md:order-3 flex">
-        <div class="search hidden md:block">All MicrosoftSearchIcon</div>
+      <div
+        class="logo text-center text-sm font-normal md:order-3 flex space-x-4"
+      >
+        <div class="all hidden md:block cursor-pointer">All Microsoft</div>
+        <div class="search hidden md:block">
+          Search
+          <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        </div>
         <div>Cart Account</div>
+      </div>
+    </div>
+
+    <!-- <div class="slider my-4">
+      <div class="md:relative">
+        <div>
+          <img
+            class="max-w-screen-md"
+            src="image/Slider_image.avif"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="flex flex-col my-6 mx-8 z-10 md:absolute">
+          <h3 class="font-semibold text-2xl mb-4">Surface Pro 9</h3>
+          <p class="font-normal">
+            Tablet versatility and laptop power. All in on ultra-portable
+            device.
+          </p>
+          <button
+            class="w-fit my-4 px-5 py-2 font-semibold bg-blue-800 rounded-md hover:bg-blue-700 text-white"
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+      <div>
+        <img
+          class="max-w-screen-xl -translate-x-3.5"
+          src="image/Slider_image2.avif"
+          alt=""
+          srcset=""
+        />
+        <div class="flex flex-col my-6 mx-8">
+          <h3 class="font-semibold text-2xl mb-4">Microsoft 365</h3>
+          <p class="font-normal">
+            Turn your ideas into reality, stay safer online and off, and focus
+            on what matters most with Microsoft 365 apps.
+          </p>
+          <button
+            class="w-fit my-4 px-5 py-2 font-semibold bg-blue-800 rounded-md hover:bg-blue-700 text-white"
+          >
+            For one person
+          </button>
+          <p class="text-blue-800 font-semibold hover:underline">
+            For up to six people
+          </p>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Slider -->
+    <div
+      class="slider flex flex-col-reverse lg:flex-row-reverse my-4 lg:relative lg:my-0"
+    >
+      <div class="left lg:absolute">
+        <div class="flex flex-col my-6 mx-8 lg:w-4/5 lg:mr-20 lg:mt-32">
+          <h3 class="font-semibold text-3xl mb-4 lg:text-5xl lg:font-medium">
+            Surface Pro 9
+          </h3>
+          <p class="font-normal">
+            Tablet versatility and laptop power. All in on ultra-portable
+            device.
+          </p>
+          <button
+            class="w-fit my-4 px-5 py-2 font-semibold bg-blue-800 rounded-md hover:bg-blue-700 text-white"
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+      <div class="right">
+        <img class="w-fill" src="image/Slider_image.avif" alt="" />
       </div>
     </div>
   </body>
