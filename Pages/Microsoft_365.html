@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Microsoft - Cloud, Computers, App &amp; Gaming</title>
     <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="main.css" />
-</head>
-<body>
+  </head>
+  <body>
     <!-- NavBar -->
     <div
-      class="mx-10 navbar w-100vw shadow-lg flex justify-between items-center p-4"
+      class="px-10 navbar w-100vw shadow-lg flex justify-between items-center p-4"
     >
       <div class="flex justify-center items-center md:order-2">
         <div class="hamburger inline-block p-2 cursor-pointer md:hidden">
@@ -22,7 +23,7 @@
       </div>
       <div class="logo text-center flex md:order-1">
         <div class="mx-6">
-          <img class="h-6" src="image/nav_logo.png" alt="" />
+          <img class="h-6" src="/image/nav_logo.png" alt="" />
         </div>
         <div
           class="features absolute w-fit -translate-x-96 bg-gray-100 inset-0 md:flex md:mx-4 md:space-x-4 md:translate-x-0 md:static md:bg-white"
@@ -30,7 +31,7 @@
           <div
             class="fitems text-sm font-normal hover:underline underline-offset-2 decoration-2 cursor-pointer"
           >
-            Microsoft 365
+            <a href="">Microsoft 365</a>
           </div>
           <div
             class="fitems text-sm font-normal hover:underline underline-offset-2 decoration-2 cursor-pointer"
@@ -101,5 +102,47 @@
         </div>
       </div>
     </div>
-</body>
+
+    <!-- Header -->
+    <div class="relative">
+      <img
+        class="z-0 absolute"
+        src="/image/Microsoft 365/Blade001_Area_Heading-VP5_Desktop_1920x720.avif"
+        alt=""
+      />
+      <div class="z-10 absolute p-24 justify-end items-end ">
+        <p class="font-semibold text-4xl mb-5">Office is now Microsoft 365</p>
+        <p class="font-semibold text-4xl w-1/3">
+          Boost productivity with Microsoft Word, Excel, PowerPoint, Microsoft
+          Teams, and more - all in one place.
+        </p>
+        <div class="flex">
+          <div class="flex flex-col">
+            <button
+              class="w-fit my-4 px-5 py-2 font-semibold bg-blue-800 rounded-md hover:bg-blue-700 text-white"
+            >
+              Learn More
+            </button>
+            <button
+              class="w-fit my-4 px-5 py-2 font-semibold bg-blue-800 rounded-md hover:bg-blue-700 text-white"
+            >
+              Learn More
+            </button>
+          </div>
+          <div class="flex flex-col">
+            <button
+              class="w-fit my-4 px-5 py-2 font-semibold bg-blue-800 rounded-md hover:bg-blue-700 text-white"
+            >
+              Learn More
+            </button>
+            <button
+              class="w-fit my-4 px-5 py-2 font-semibold bg-blue-800 rounded-md hover:bg-blue-700 text-white"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
