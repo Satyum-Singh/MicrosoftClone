@@ -22,7 +22,7 @@
         <div class="search md:hidden">SearchIcon</div>
       </div>
       <div class="logo text-center flex md:order-1">
-        <div class="mx-6">
+        <div class="mx-6" data-aos="fade-right">
           <img class="h-6" src="image/nav_logo.png" alt="" />
         </div>
         <div
@@ -30,31 +30,42 @@
         >
           <div
             class="fitems text-sm font-normal hover:underline underline-offset-2 decoration-2 cursor-pointer"
+            data-aos="fade-up"
           >
             <a href="/Microsoft_365.html">Microsoft 365</a>
           </div>
           <div
             class="fitems text-sm font-normal hover:underline underline-offset-2 decoration-2 cursor-pointer"
+            data-aos="fade-up"
+            data-aos-delay="100"
           >
             <a href="/Microsoft_team.html">Teams</a>
           </div>
           <div
             class="fitems text-sm font-normal hover:underline underline-offset-2 decoration-2 cursor-pointer"
+            data-aos="fade-up"
+            data-aos-delay="200"
           >
             Windows
           </div>
           <div
             class="fitems text-sm font-normal hover:underline underline-offset-2 decoration-2 cursor-pointer"
+            data-aos="fade-up"
+            data-aos-delay="300"
           >
             Surface
           </div>
           <div
             class="fitems text-sm font-normal hover:underline underline-offset-2 decoration-2 cursor-pointer"
+            data-aos="fade-up"
+            data-aos-delay="400"
           >
             Xbox
           </div>
           <div
             class="fitems text-sm font-normal hover:underline underline-offset-2 decoration-2 cursor-pointer"
+            data-aos="fade-up"
+            data-aos-delay="500"
           >
             Support
           </div>
@@ -63,8 +74,18 @@
       <div
         class="logo text-center text-sm font-normal md:order-3 flex space-x-3"
       >
-        <div class="all hidden md:block cursor-pointer mx-3">All Microsoft</div>
-        <div class="search hidden md:block md:flex inline">
+        <div
+          class="all hidden md:block cursor-pointer mx-3"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
+          All Microsoft
+        </div>
+        <div
+          class="search hidden md:block md:flex inline"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
           Search
           <div class="mx-1">
             <lord-icon
@@ -77,7 +98,7 @@
           </div>
         </div>
 
-        <div class="flex">
+        <div class="flex" data-aos="fade-up" data-aos-delay="100">
           Cart
           <div class="mx-1">
             <lord-icon
@@ -89,7 +110,7 @@
             </lord-icon>
           </div>
         </div>
-        <div class="flex">
+        <div class="flex" data-aos="fade-left">
           Account
           <div class="mx-2">
             <lord-icon
@@ -109,15 +130,25 @@
     >
       <div class="left lg:absolute">
         <div class="flex flex-col my-6 mx-8 lg:w-4/5 lg:mr-20 lg:mt-32">
-          <h3 class="font-semibold text-3xl mb-4 lg:text-5xl lg:font-medium">
+          <h3
+            class="font-semibold text-3xl mb-4 lg:text-5xl lg:font-medium"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
             Surface Pro 9
           </h3>
-          <p class="font-normal">
+          <p
+            class="font-normal"
+            data-aos="fade-zoom-in"
+            data-aos-duration="2000"
+          >
             Tablet versatility and laptop power. All in on ultra-portable
             device.
           </p>
           <button
             class="w-fit my-4 px-5 py-2 font-semibold bg-blue-700 rounded-md hover:bg-blue-800 text-white"
+            data-aos="fade-up"
+            data-aos-delay="500"
           >
             Learn More
           </button>
@@ -132,60 +163,87 @@
     <div class="flex justify-center items-center text-center space-x-20 my-10">
       <!-- Microsoft 365 -->
       <div class="flex flex-col">
-        <lord-icon
-          class="pr-56"
-          src="https://cdn.lordicon.com/gmzxduhd.json"
-          trigger="hover"
-          colors="primary:#110a5c,secondary:#16c"
-          style="width: 100px; height: 100px"
+        <div data-aos="zoom-in-up">
+          <lord-icon
+            class="pr-56"
+            src="https://cdn.lordicon.com/gmzxduhd.json"
+            trigger="hover"
+            colors="primary:#110a5c,secondary:#16c"
+            style="width: 100px; height: 100px"
+          >
+          </lord-icon>
+        </div>
+        <div
+          class="cursor-pointer text-lg hover:underline hover:text-blue-700"
+          data-aos="fade-right"
+          data-aos-delay="200"
         >
-        </lord-icon>
-        <p class="cursor-pointer text-lg hover:underline hover:text-blue-700">
           Choose your Microsoft 365
-        </p>
+        </div>
       </div>
 
       <!-- Surface Devices -->
       <div class="flex flex-col">
-        <lord-icon
-          class="pr-44"
-          src="https://cdn.lordicon.com/xhwleznj.json"
-          trigger="hover"
-          colors="primary:#110a5c,secondary:#16c"
-          style="width: 100px; height: 100px"
+        <div data-aos="zoom-in-up" data-aos-delay="200">
+          <lord-icon
+            class="pr-44"
+            src="https://cdn.lordicon.com/xhwleznj.json"
+            trigger="hover"
+            colors="primary:#110a5c,secondary:#16c"
+            style="width: 100px; height: 100px"
+          >
+          </lord-icon>
+        </div>
+
+        <p
+          class="cursor-pointer text-lg hover:underline hover:text-blue-700"
+          data-aos="fade-right"
+          data-aos-delay="400"
         >
-        </lord-icon>
-        <p class="cursor-pointer text-lg hover:underline hover:text-blue-700">
           Explore Surface Devices
         </p>
       </div>
 
       <!-- Xbox Games -->
       <div class="flex flex-col">
-        <lord-icon
-          class="pr-44"
-          src="https://cdn.lordicon.com/ktxpktdd.json"
-          trigger="hover"
-          colors="primary:#110a5c,secondary:#16c"
-          style="width: 100px; height: 100px"
+        <div data-aos="zoom-in-up" data-aos-delay="400">
+          <lord-icon
+            class="pr-44"
+            src="https://cdn.lordicon.com/ktxpktdd.json"
+            trigger="hover"
+            colors="primary:#110a5c,secondary:#16c"
+            style="width: 100px; height: 100px"
+          >
+          </lord-icon>
+        </div>
+
+        <p
+          class="cursor-pointer text-lg hover:underline hover:text-blue-700"
+          data-aos="fade-right"
+          data-aos-delay="600"
         >
-        </lord-icon>
-        <p class="cursor-pointer text-lg hover:underline hover:text-blue-700">
           Buy Xbox games
         </p>
       </div>
 
       <!-- Windows 11 -->
       <div class="flex flex-col">
-        <lord-icon
-          class="pr-44 my-4"
-          src="https://cdn.lordicon.com/msetysan.json"
-          trigger="hover"
-          colors="primary:#16c"
-          style="width: 70px; height: 70px"
+        <div data-aos="zoom-in-up" data-aos-delay="600">
+          <lord-icon
+            class="pr-44 my-4"
+            src="https://cdn.lordicon.com/msetysan.json"
+            trigger="hover"
+            colors="primary:#16c"
+            style="width: 70px; height: 70px"
+          >
+          </lord-icon>
+        </div>
+
+        <p
+          class="cursor-pointer text-lg hover:underline hover:text-blue-700"
+          data-aos="fade-right"
+          data-aos-delay="800"
         >
-        </lord-icon>
-        <p class="cursor-pointer text-lg hover:underline hover:text-blue-700">
           Get Windows 11
         </p>
       </div>
@@ -290,15 +348,19 @@
 
       <!-- Inside Content -->
       <div class="lg:pt-36 lg:pl-24 w-2/4 absolute text-white">
-        <h3 class="font-semibold text-3xl lg:text-4xl mb-4 lg:font-medium">
+        <h3
+          class="font-semibold text-3xl lg:text-4xl mb-4 lg:font-medium"
+          data-aos="fade-right"
+        >
           Designed for life today - and tomorrow
         </h3>
-        <p class="font-normal text-lg">
+        <p class="font-normal text-lg" data-aos="fade-right">
           The next-generation of games.Your goals. Friends and family. Windows
           11 was made to bring you closer to everything you love.
         </p>
         <button
           class="w-fit my-5 px-5 py-2 font-semibold bg-blue-700 rounded-md hover:bg-blue-800 text-white"
+          data-aos="zoom-out"
         >
           See if you're PC is ready
         </button>
