@@ -9,5 +9,95 @@
   </head>
   <body>
     <!-- NavBar -->
+    <div
+      class="px-10 navbar w-100vw shadow-lg flex justify-between items-center p-4"
+    >
+      <div class="flex justify-center items-center md:order-2">
+        <div class="hamburger inline-block p-2 cursor-pointer md:hidden">
+          <div class="line h-0.5 w-6 my-1 bg-black"></div>
+          <div class="line h-0.5 w-6 my-1 bg-black"></div>
+          <div class="line h-0.5 w-6 my-1 bg-black"></div>
+        </div>
+        <div class="search md:hidden">SearchIcon</div>
+      </div>
+      <div class="logo text-center flex md:order-1">
+        <div class="mx-6" data-aos="fade-right">
+          <img class="h-6" src="image/nav_logo.png" alt="" />
+        </div>
+        <div
+          class="features absolute w-fit -translate-x-96 bg-gray-100 inset-0 md:flex md:mx-4 md:space-x-4 md:translate-x-0 md:static md:bg-white"
+        >
+          <div class="nav-ele" data-aos="fade-up">
+            <a href="/Microsoft_365.html">Microsoft 365</a>
+          </div>
+          <div class="nav-ele" data-aos="fade-up" data-aos-delay="100">
+            <a href="">Teams</a>
+          </div>
+          <div class="nav-ele" data-aos="fade-up" data-aos-delay="200">
+            <a href="/Microsoft_windows.html">Windows</a>
+          </div>
+          <div class="nav-ele" data-aos="fade-up" data-aos-delay="300">
+            Surface
+          </div>
+          <div class="nav-ele" data-aos="fade-up" data-aos-delay="400">
+            Xbox
+          </div>
+          <div class="nav-ele" data-aos="fade-up" data-aos-delay="500">
+            Support
+          </div>
+        </div>
+      </div>
+      <div
+        class="logo text-center text-sm font-normal md:order-3 flex space-x-3"
+      >
+        <div
+          class="all hidden md:block cursor-pointer mx-3"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
+          All Microsoft
+        </div>
+        <div
+          class="search hidden md:block md:flex inline"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          Search
+          <div class="mx-1">
+            <lord-icon
+              src="https://cdn.lordicon.com/xfftupfv.json"
+              trigger="hover"
+              colors="primary:#121331"
+              style="width: 25px; height: 20px"
+            >
+            </lord-icon>
+          </div>
+        </div>
+
+        <div class="flex" data-aos="fade-up" data-aos-delay="100">
+          Cart
+          <div class="mx-1">
+            <lord-icon
+              src="https://cdn.lordicon.com/hyhnpiza.json"
+              trigger="click"
+              colors="primary:#121331"
+              style="width: 25px; height: 20px"
+            >
+            </lord-icon>
+          </div>
+        </div>
+        <div class="flex" data-aos="fade-left">
+          Account
+          <div class="mx-2">
+            <lord-icon
+              src="https://cdn.lordicon.com/bhfjfgqz.json"
+              colors="primary:#121331"
+              style="width: 20px; height: 20px"
+            >
+            </lord-icon>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
