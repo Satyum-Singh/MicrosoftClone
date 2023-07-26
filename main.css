@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components{
+    .nav-ele{
+        @apply text-sm font-normal hover:underline underline-offset-2 decoration-2 cursor-pointer;
+    }
+
     .main-heading{
         @apply font-semibold text-3xl lg:text-4xl mb-4 lg:font-medium;
     }
