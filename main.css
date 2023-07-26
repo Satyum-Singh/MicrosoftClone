@@ -2,8 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-.main-heading{
-    font:semibold;
-    text:3xl; 
-    mb:4;
+@layer components{
+    .main-heading{
+        @apply font-semibold text-3xl lg:text-4xl mb-4 lg:font-medium;
+    }
+
+    .further-links{
+        @apply lg:text-lg my-4 text-blue-600 hover:text-blue-800 hover:underline cursor-pointer;
+    }
+
+    .para{
+        @apply font-normal text-lg;
+    }
 }
+
