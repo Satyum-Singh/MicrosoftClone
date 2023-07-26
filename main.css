@@ -26,5 +26,9 @@
     .para{
         @apply font-normal text-lg;
     }
+
+    .footer-ele{
+        @apply hover:underline cursor-pointer;
+    }
 }
 
