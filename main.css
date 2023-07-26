@@ -7,6 +7,10 @@
         @apply font-semibold text-3xl lg:text-4xl mb-4 lg:font-medium;
     }
 
+    .med-heading{
+        @apply font-semibold text-3xl mb-4 lg:text-3xl lg:font-medium mt-5;
+    }
+
     .further-links{
         @apply lg:text-lg my-4 text-blue-600 hover:text-blue-800 hover:underline cursor-pointer;
     }
