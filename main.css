@@ -16,7 +16,7 @@
     }
 
     .btn-b{
-        @apply w-fit my-5 px-5 py-2 font-semibold bg-blue-700 rounded-md hover:bg-blue-800 text-white;
+        @apply w-fit my-5 px-5 py-2 text-white font-semibold bg-gradient-to-r from-indigo-500 to-purple-500 rounded-md hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 hover:-translate-y-1 hover:scale-110 hover:ease-in-out duration-300  ;
     }
 
     .further-links{
