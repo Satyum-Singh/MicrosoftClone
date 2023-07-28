@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Microsoft - Cloud, Computers, App &amp; Gaming</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <!-- NavBar -->
     <div
-      class="w-screen px-10 navbar w-100vw shadow-lg flex justify-between items-center p-4"
+      class="px-10 navbar w-100vw shadow-lg flex justify-between items-center p-4 mb-10"
     >
       <div class="flex justify-center items-center md:order-2">
         <div class="hamburger inline-block p-2 cursor-pointer md:hidden">
@@ -25,7 +26,7 @@
           <img class="h-6" src="image/nav_logo.png" alt="" />
         </div>
         <div
-          class="features absolute w-fit -translate-x-96 bg-gray-100 inset-0 md:flex md:mx-4 md:space-x-4 md:translate-x-0 md:static md:bg-white items-baseline"
+          class="features absolute w-fit -translate-x-96 bg-gray-100 inset-0 md:flex md:mx-4 md:space-x-4 md:translate-x-0 md:static md:bg-white"
         >
           <div class="nav-ele" data-aos="fade-up">
             <a href="/Microsoft_365.html">Microsoft 365</a>
@@ -33,11 +34,7 @@
           <div class="nav-ele" data-aos="fade-up" data-aos-delay="100">
             <a href="">Teams</a>
           </div>
-          <div
-            class="nav-ele text-lg font-semibold underline underline-offset-2"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
+          <div class="nav-ele" data-aos="fade-up" data-aos-delay="200">
             <a href="/Microsoft_windows.html">Windows</a>
           </div>
           <div class="nav-ele" data-aos="fade-up" data-aos-delay="300">
@@ -109,6 +106,7 @@
       <div class="w-1/3 mt-32 ml-20 flex flex-col">
         <div
           class="w-24 h-2 mb-10 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg"
+          data-aos="zoom-in"
         ></div>
         <h1 class="main-heading text-7xl pr-10">Make the everyday easier</h1>
         <p class="para mt-10 pr-32">
@@ -116,10 +114,11 @@
           household, Windows 11 helps you get it done. Discover streamlined new
           features for every way you work, learn and play.
         </p>
-        <button class="btn-b">Get Windows 11</button>
+        <button class="btn-b" data-aos="zoom-in-down">Get Windows 11</button>
       </div>
-      <div class="w-2/3 bg-slate-400 overflow-hidden">
+      <div class="w-2/3 overflow-hidden">
         <img
+          data-aos="fade-right"
           class="h-full object-cover"
           src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RW14wah"
           alt=""
@@ -137,7 +136,7 @@
         </p>
       </div>
       <div class="flex space-x-7">
-        <div class="flex flex-col w-1/3">
+        <div class="flex flex-col w-1/3" data-aos="fade-down-right">
           <div class="w-full mb-10">
             <img src="/image/Microsoft Windows/Windows/RW10Czf.png" alt="" />
           </div>
@@ -149,7 +148,11 @@
           <p class="further-links">See what's new</p>
         </div>
 
-        <div class="flex flex-col w-1/3">
+        <div
+          class="flex flex-col w-1/3"
+          data-aos="fade-down-right"
+          data-aos-delay="300"
+        >
           <div class="w-full mb-10">
             <img src="/image/Microsoft Windows/Windows/RW10A7h.png" alt="" />
           </div>
@@ -161,7 +164,11 @@
           <p class="further-links">Get Windows 11</p>
         </div>
 
-        <div class="flex flex-col w-1/3">
+        <div
+          class="flex flex-col w-1/3"
+          data-aos="fade-down-right"
+          data-aos-delay="600"
+        >
           <div class="w-full mb-10">
             <img src="/image/Microsoft Windows/Windows/RW10seS.png" alt="" />
           </div>
@@ -191,6 +198,7 @@
       </div>
       <div class="w-1/2 py-32 ml-20">
         <div
+          data-aos="zoom-in"
           class="w-24 h-2 mb-10 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg"
         ></div>
         <h1 class="main-heading text-5xl">Sync your PC & phone</h1>
@@ -198,7 +206,9 @@
           Microsoft Phone Link makes it possible to make calls, reply to texts,
           and check your phone’s notifications from your PC5.
         </p>
-        <button class="btn-b">Explore Phone Link</button>
+        <button class="btn-b" data-aos="zoom-in-down">
+          Explore Phone Link
+        </button>
       </div>
     </div>
 
@@ -213,6 +223,7 @@
       </div>
       <div class="w-1/2 py-32 ml-20">
         <div
+          data-aos="zoom-in"
           class="w-24 h-2 mb-10 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg"
         ></div>
         <h1 class="main-heading text-5xl">Chat with AI-powered</h1>
@@ -224,7 +235,7 @@
           get inspired with suggestions to kickstart whatever you want to
           create. Exploring online has never been easier.
         </p>
-        <button class="btn-b">Try it Now</button>
+        <button class="btn-b" data-aos="zoom-in-down">Try it Now</button>
       </div>
     </div>
 
@@ -240,25 +251,35 @@
       </div>
 
       <div class="flex space-x-3">
-        <div class="w-1/2">
+        <div class="w-1/2" data-aos="flip-left" data-aos-duration="700">
           <img src="/image/Microsoft Windows/Right fit/RW161ht.png" alt="" />
         </div>
         <div class="w-1/2 flex flex-col space-y-3">
           <div class="flex space-x-3">
-            <div class="w-1/2">
+            <div
+              class="w-1/2"
+              data-aos="flip-up"
+              data-aos-duration="700"
+              data-aos-delay="300"
+            >
               <img
                 src="/image/Microsoft Windows/Right fit/RW15Om8.png"
                 alt=""
               />
             </div>
-            <div class="w-1/2">
+            <div
+              class="w-1/2"
+              data-aos="flip-right"
+              data-aos-duration="700"
+              data-aos-delay="600"
+            >
               <img
                 src="/image/Microsoft Windows/Right fit/RW15QOj.png"
                 alt=""
               />
             </div>
           </div>
-          <div>
+          <div data-aos="flip-down" data-aos-duration="700">
             <img src="/image/Microsoft Windows/Right fit/RW1693A.png" alt="" />
           </div>
         </div>
@@ -292,7 +313,7 @@
     <!-- Better 3 sections -->
     <div class="flex mx-20 mt-20 mb-10 space-x-8">
       <div class="flex flex-col w-1/3">
-        <div>
+        <div data-aos="zoom-in-up">
           <img src="/image/Microsoft Windows/Better/RW10CIa.png" alt="" />
         </div>
         <h1 class="main-heading mt-10">Microsft Store</h1>
@@ -304,7 +325,7 @@
       </div>
 
       <div class="flex flex-col w-1/3 mt-48">
-        <div>
+        <div data-aos="zoom-in-down">
           <img src="/image/Microsoft Windows/Better/RW10CId.png" alt="" />
         </div>
         <h1 class="main-heading mt-10">Microsft Edge</h1>
@@ -315,7 +336,7 @@
       </div>
 
       <div class="flex flex-col w-1/3">
-        <div>
+        <div data-aos="zoom-in-up">
           <img src="/image/Microsoft Windows/Better/RW10AeQ.png" alt="" />
         </div>
         <h1 class="main-heading mt-10">Microsft 365</h1>
@@ -329,21 +350,28 @@
 
     <!-- Social Media -->
     <div class="flex mx-20 mt-20 mb-10">
-      <h3 class="font-normal text-xl">Follow Microsoft</h3>
+      <h3 class="font-normal text-xl" data-aos="fade-left">Follow Microsoft</h3>
       <div class="flex mx-6 space-x-6">
         <img
+          data-aos="zoom-out-right"
           class="w-8"
           src="image/social_media/Twitter-symbol.jpg.crdownload"
           alt=""
           srcset=""
         />
         <img
+          data-aos="zoom-out-right"
+          data-aos-delay="300"
+          data-aos-duration="500"
           class="w-8"
           src="image/social_media/1-19853_instagram-logo-black-transparent-instagram-logo-black-png.png"
           alt=""
           srcset=""
         />
         <img
+          data-aos="zoom-out-right"
+          data-aos-delay="600"
+          data-aos-duration="500"
           class="w-8"
           src="image/social_media/icon-facebook-black.png"
           alt=""
@@ -444,5 +472,10 @@
         </div>
       </div>
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
