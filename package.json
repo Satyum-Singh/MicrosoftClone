@@ -6,7 +6,7 @@
     "vite": "^4.3.9"
   },
   "scripts": {
-    "start": "vite"
+    "start": "react-scripts start"
   },
   "dependencies": {
     "aos": "^2.3.4"
